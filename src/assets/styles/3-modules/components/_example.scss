@@ -1,0 +1,16 @@
+.example {
+  padding: 24px;
+  height: 100%;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .products {
+    height: calc(100% - 40px);
+    padding-top: 16px;
+  }
+}
